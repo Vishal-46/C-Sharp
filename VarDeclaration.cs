@@ -1,7 +1,10 @@
-//1 Var Declaration in C# with int, string, bool types.
+/* 
+Var Declaration in C# 
+1 Using int, string, bool types.
+*/
 using System;
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
