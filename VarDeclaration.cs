@@ -56,3 +56,39 @@ class Program
         Console.WriteLine("Account Balance: $" + accountBalance); // Output: Account Balance: $12345.67
     }
 }
+
+/*
+3 
+Nullable Types and Enums
+*/
+using System;
+class Program
+{
+    // Enumeration for days of the week
+    enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
+
+    static void Main()
+    {
+        // Nullable integer
+        int? nullableAge = null;
+
+        // Check if the variable has a value
+        if (nullableAge.HasValue)
+        {
+            Console.WriteLine("Nullable Age: " + nullableAge.Value);
+        }
+        else
+        {
+            Console.WriteLine("Age is not set.");
+        }
+
+        // Assigning a value to the nullable variable
+        nullableAge = 21;
+        Console.WriteLine("Updated Nullable Age: " + nullableAge.Value);
+
+        // Using Enum
+        Days today = Days.Wednesday;
+        Console.WriteLine("Today is: " + today);
+    }
+}
+
