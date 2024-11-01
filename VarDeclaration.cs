@@ -1,5 +1,5 @@
+//Var Declaration in C# with int, string, bool types.
 using System;
-
 namespace variable
 {
     class Program
