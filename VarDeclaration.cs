@@ -1,6 +1,5 @@
-//Var Declaration in C# with int, string, bool types.
+//1 Var Declaration in C# with int, string, bool types.
 using System;
-namespace variable
 {
     class Program
     {
@@ -25,5 +24,35 @@ namespace variable
             int graduationYear = age + yearsUntilGraduation;
             Console.WriteLine("Expected Graduation Year: " + graduationYear);
         }
+    }
+}
+
+/*
+2 
+Var Declaration with Float, Double, Char, Decimal types.
+*/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Float declaration
+        float temperature = 36.6f; // Temperature in Celsius
+        
+        // Double declaration
+        double distance = 149.6e6; // Distance from Earth to the Sun in kilometers
+
+        // Char declaration
+        char initial = 'C'; // First letter of a name
+        
+        // Decimal declaration
+        decimal accountBalance = 12345.67m; // Bank account balance
+
+        // Output the values
+        Console.WriteLine("Temperature: " + temperature + " °C"); // Output: Temperature: 36.6 °C
+        Console.WriteLine("Distance to Sun: " + distance + " km"); // Output: Distance to Sun: 149600000 km
+        Console.WriteLine("Initial: " + initial); // Output: Initial: C
+        Console.WriteLine("Account Balance: $" + accountBalance); // Output: Account Balance: $12345.67
     }
 }
