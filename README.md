@@ -15,11 +15,4 @@ Every day, I’m diving into a new topic to strengthen my skills for game develo
 3. **Methods and Functions**: 
    - Discovering how to create reusable blocks of code to enhance efficiency and organization.
 
-### 📅 Upcoming Topics:
-Stay tuned as I continue to add new topics each day, including:
-- Object-Oriented Programming
-- Exception Handling
-- Collections and Data Structures
-- And much more!
-
 This project is a testament to my personal growth in coding. If my exploration helps you in any way, that’s a bonus! Let's code, create, and conquer together! 💻✨
