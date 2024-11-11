@@ -1,5 +1,4 @@
-
-
+//Basics of Methods and function calling in a single simple Example:
 using System;
 class Program
 {
