@@ -1,5 +1,5 @@
 //Basics of Methods and function calling in a single simple Example:
-/*using System;
+using System;
 class Program
 {
     // Method to greet a user with a default country if none is specified
@@ -7,7 +7,6 @@ class Program
     {
         Console.WriteLine($"Hello, {name} from {country}!");
     }
-
     // Method to add two integers and return the result
     public static int Add(int a, int b)
     {
@@ -22,7 +21,6 @@ class Program
         else
             return n * Factorial(n - 1);
     }
-
     // Method demonstrating pass-by-reference to double a number
     public static void DoubleValue(ref int number)
     {
@@ -49,4 +47,4 @@ class Program
         Console.WriteLine("Doubled Value: " + myNumber);
     }
 }
-*/
+
