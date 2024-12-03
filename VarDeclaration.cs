@@ -29,7 +29,7 @@ using System;
         }
     }
 }
-
+-----------------------------------------
 /*
 2 
 Var Declaration with Float, Double, Char, Decimal types.
