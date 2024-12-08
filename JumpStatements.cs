@@ -1,5 +1,5 @@
 
-//Break Statements
+//Break Statement
 using System;
 class Program
 {
