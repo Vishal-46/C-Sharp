@@ -9,7 +9,7 @@ class Program
             if (i == 3)
             {
                 Console.WriteLine("Breaking out of the loop when i is 3");
-                break;  // Exit the loop
+                break; // Exit the loop
             }
             Console.WriteLine("i = " + i);
         }
